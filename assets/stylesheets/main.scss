@@ -1,0 +1,27 @@
+@import "globals/bourbon/bourbon";
+@import "globals/bourbon_fix";
+
+
+// Import global base styles
+@import "globals/_lib";
+@import "globals/_base.scss";
+@import "globals/_Icons.scss";
+@import "globals/reset.scss";
+
+// File for global Uranium stylings
+@import "globals/_uranium.scss";
+
+// Site wide variables
+@import "globals/_variables.scss";
+@import "globals/_forms";
+@import "globals/_accordions";
+
+// Import Bourbon
+@import "globals/bourbon/_bourbon.scss";
+
+// Header & Footer
+@import "sections/header";
+@import "sections/footer";
+
+// Pages
+@import "pages/home";

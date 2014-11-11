@@ -1,0 +1,6 @@
+{
+  "host_map": [
+    "$.shop.hdsupplypowersolutions.com => shop.hdsupplypowersolutions.com",
+    "$.qa-psu.ecom.hdsupply.com => qa-psu.ecom.hdsupply.com"
+  ]
+}

@@ -1,0 +1,16 @@
+// Every page should have a class on the body
+// Scope that in each file at the start
+.mw_home {
+	.product-categories{
+		.mw_productContent{
+			margin-top: -7px;
+			
+			.mw_productContentItem{
+				.mw_catButton{
+					background-color: #333;
+				}
+				
+			}
+		}
+	}
+}

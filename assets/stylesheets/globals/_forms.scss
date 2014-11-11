@@ -1,0 +1,27 @@
+input {
+	padding: .5em !important;
+}
+
+label.for-checkbox {
+	width: auto !important;
+	display: inline !important;
+}
+
+input.input-second-line {
+	margin: 5px 0;
+
+	@media (min-width: 338px) {
+		margin-left: 124px !important;
+	}
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"]{
+	padding: 7px !important;
+	border: 1px solid #cbcbcb;
+	color: #667;
+	font-size: 13px;
+	line-height: 1.38em;
+	text-shadow: 0 1px #fff;
+	font-weight: bold;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+}

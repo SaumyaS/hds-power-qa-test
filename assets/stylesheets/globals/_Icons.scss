@@ -1,0 +1,152 @@
+$Icons-url: url("/_moovweb_local_assets_/images/Icons.png");
+
+$Icons-width: 60px;
+$Icons-height: 309px;
+
+$Icons-cart-empty-x: 0px;
+$Icons-cart-empty-y: 0px;
+$Icons-cart-empty-width: 20px;
+$Icons-cart-empty-height: 19px;
+
+$Icons-cart-full-x: 0px;
+$Icons-cart-full-y: -20px;
+$Icons-cart-full-width: 20px;
+$Icons-cart-full-height: 19px;
+
+$Icons-cart-indicator-x: 0px;
+$Icons-cart-indicator-y: -40px;
+$Icons-cart-indicator-width: 20px;
+$Icons-cart-indicator-height: 20px;
+
+$Icons-menu-x: 0px;
+$Icons-menu-y: -61px;
+$Icons-menu-width: 20px;
+$Icons-menu-height: 19px;
+
+$Icons-minus-x: 0px;
+$Icons-minus-y: -162px;
+$Icons-minus-width: 22px;
+$Icons-minus-height: 22px;
+
+$Icons-plus-x: 0px;
+$Icons-plus-y: -185px;
+$Icons-plus-width: 22px;
+$Icons-plus-height: 22px;
+
+$Icons-search-x: 0px;
+$Icons-search-y: -104.5px;
+$Icons-search-width: 30px;
+$Icons-search-height: 30px;
+
+$Icons-user-x: 0px;
+$Icons-user-y: -135.5px;
+$Icons-user-width: 20px;
+$Icons-user-height: 19px;
+
+@mixin Icons-cart-empty() {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px 0px;
+  @include background-size(30px 154.5px);
+  width: 20px;
+  height: 19px;
+}
+
+@mixin Icons-cart-full() {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -20px;
+  @include background-size(30px 154.5px);
+  width: 20px;
+  height: 19px;
+}
+
+@mixin Icons-cart-indicator() {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -40px;
+  @include background-size(30px 154.5px);
+  width: 20px;
+  height: 20px;
+}
+
+@mixin Icons-menu() {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -61px;
+  @include background-size(30px 154.5px);
+  width: 20px;
+  height: 19px;
+}
+
+@mixin Icons-minus() {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -162px;
+  width: 22px;
+  height: 22px;
+}
+
+@mixin Icons-plus() {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -185px;
+  width: 22px;
+  height: 22px;
+}
+
+@mixin Icons-search() {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -104.5px;
+  @include background-size(30px 154.5px);
+  width: 30px;
+  height: 30px;
+}
+
+@mixin Icons-user() {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -135.5px;
+  @include background-size(30px 154.5px);
+  width: 20px;
+  height: 19px;
+}
+
+.Icons-cart-empty {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px 0px;
+  background-size: 30px 154.5px;
+  width: 20px;
+  height: 19px;
+}
+
+.Icons-cart-full {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -20px;
+  background-size: 30px 154.5px;
+  width: 20px;
+  height: 19px;
+}
+
+.Icons-cart-indicator {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -40px;
+  background-size: 30px 154.5px;
+  width: 20px;
+  height: 20px;
+}
+
+.Icons-menu {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -61px;
+  background-size: 30px 154.5px;
+  width: 20px;
+  height: 19px;
+}
+
+.Icons-minus {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -162px;
+  width: 22px;
+  height: 22px;
+}
+
+.Icons-plus {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -185px;
+  width: 22px;
+  height: 22px;
+}
+
+.Icons-search {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -104.5px;
+  background-size: 30px 154.5px;
+  width: 30px;
+  height: 30px;
+}
+
+.Icons-user {
+  background: url("/_moovweb_local_assets_/images/Icons.png") no-repeat 0px -135.5px;
+  background-size: 30px 154.5px;
+  width: 20px;
+  height: 19px;
+}

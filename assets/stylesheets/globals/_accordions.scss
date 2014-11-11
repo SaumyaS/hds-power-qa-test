@@ -1,0 +1,32 @@
+[data-ur-toggler-component="toggler"] {
+	
+}
+
+[data-ur-toggler-component="button"] {
+	@include toggler;
+}
+
+[data-ur-tabs-component="button"] {
+	@include subToggler;
+}
+
+.mw_bars{
+	@include bars;
+	
+
+}
+
+.subToggler{
+	@include subToggler;
+}
+
+.mw_subBars{
+	margin: 0 15px;
+	display: block;
+	line-height: 1.4;
+	text-decoration: none;
+	padding: 10px;
+	background:#444;
+	color: #fff;
+	border-bottom: 1px solid #777;
+}
