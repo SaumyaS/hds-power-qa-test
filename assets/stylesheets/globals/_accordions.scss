@@ -21,12 +21,15 @@
 }
 
 .mw_subBars{
+	@include background-image(image-url("img/menu_go.png"));
+	background-position: right center;
+	background-repeat: no-repeat;
 	margin: 0 15px;
 	display: block;
 	line-height: 1.4;
 	text-decoration: none;
 	padding: 10px;
-	background:#444;
+	background-color:#444;
 	color: #fff;
 	border-bottom: 1px solid #777;
 }

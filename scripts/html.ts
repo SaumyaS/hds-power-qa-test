@@ -20,6 +20,7 @@ $("/html") {
 
   @import "sections/header.ts"
   @import "sections/footer.ts"
+  @import "sections/leftSideCategory.ts"
 
   @import "mappings.ts"
 
